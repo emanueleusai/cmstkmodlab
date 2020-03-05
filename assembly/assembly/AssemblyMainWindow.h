@@ -138,7 +138,7 @@ class AssemblyMainWindow : public QMainWindow
 
   AssemblyUEyeModel_t*      camera_model_;
   AssemblyUEyeCameraThread* camera_thread_;
-  AssemblyUEyeWidget*      camera_widget_;
+  AssemblyUEyeCameraWidget*      camera_widget_;
   AssemblyVUEyeCamera*      camera_;
   unsigned int              camera_ID_;
 
