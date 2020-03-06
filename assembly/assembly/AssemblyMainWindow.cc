@@ -96,6 +96,8 @@ AssemblyMainWindow::AssemblyMainWindow(const QString& outputdir_path, const QStr
 
       return;
     }
+	
+	this->setFixedSize(300,300);
 
     /// Parameters
     ///   * instance created up here, so controllers can access it
@@ -258,11 +260,16 @@ AssemblyMainWindow::AssemblyMainWindow(const QString& outputdir_path, const QStr
 
 // U-EYE VIEW ----------------------------------------------
     const QString tabname_uEye("uEye");
+    const QString tabname_test("Test");
 
 	if(camera_ != nullptr)
 	{
+		camera_test_ = new AssemblyUEyeTest(camera_, this);
+		controls_tab->addTab(camera_test_, tabname_test);
+
 		camera_widget_ = new AssemblyUEyeCameraWidget(camera_, this);
 		controls_tab->addTab(camera_widget_, tabname_uEye);
+
 		//    camera_widget_ = new AssemblyUEyeWidget(camera_model_, this);
 		//    controls_tab->addTab(camera_widget_, tabname_uEye);
 

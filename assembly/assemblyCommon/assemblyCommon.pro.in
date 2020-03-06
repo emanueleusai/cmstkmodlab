@@ -79,6 +79,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 HEADERS += AssemblyVUEyeCamera.h \
            AssemblyVUEyeModel.h \
            AssemblyUEyeWidget.h \
+           AssemblyUEyeTest.h \
            AssemblyUEyeCameraWidget.h \
            AssemblyUEyeCameraThread.h \
            AssemblyUEyeView.h \
@@ -142,6 +143,7 @@ HEADERS += AssemblyUEyeFakeCamera.h \
 SOURCES += AssemblyVUEyeCamera.cc \
            AssemblyVUEyeModel.cc \
            AssemblyUEyeWidget.cc \
+           AssemblyUEyeTest.cc \
            AssemblyUEyeCameraWidget.cc \
            AssemblyUEyeCameraThread.cc \
            AssemblyUEyeView.cc \

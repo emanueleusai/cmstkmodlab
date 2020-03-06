@@ -25,6 +25,7 @@ typedef AssemblyUEyeModel AssemblyUEyeModel_t;
 #include <AssemblyUEyeWidget.h>
 #include <AssemblyUEyeCameraWidget.h>
 #include <AssemblyUEyeView.h>
+#include <AssemblyUEyeTest.h>
 #include <AssemblyUEyeSnapShooter.h>
 #include <AssemblyZFocusFinder.h>
 #include <AssemblyImageController.h>
@@ -139,6 +140,7 @@ class AssemblyMainWindow : public QMainWindow
   AssemblyUEyeModel_t*      camera_model_;
   AssemblyUEyeCameraThread* camera_thread_;
   AssemblyUEyeCameraWidget*      camera_widget_;
+  AssemblyUEyeTest*        camera_test_;
   AssemblyVUEyeCamera*      camera_;
   unsigned int              camera_ID_;
 
