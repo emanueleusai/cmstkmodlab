@@ -218,7 +218,7 @@ class AssemblyMainWindow : public QMainWindow
   AlignmentCheckView* alignmentCheck_view_;
 
   QCheckBox* autofocus_checkbox_;
-  AlignmentCheckView* alignmentCheck_view_;
+  // AlignmentCheckView* alignmentCheck_view_;
 
   // flags
   bool images_enabled_;
