@@ -318,7 +318,6 @@ void AlignmentCheck::run_alignment(const double patrec_dX, const double patrec_d
                                            << ": emitting signal \"PatRec_request\"";
 
       ++alignment_step_;
-
       emit PatRec_request(this->configuration().PatRecTwo_configuration);
 
   }
@@ -457,7 +456,6 @@ void AlignmentCheck::run_alignment(const double patrec_dX, const double patrec_d
       
       NQLog("AlignmentCheck", NQLog::Message) << "Angle measured from the PS-S to the PS-P: step [" << meas_angle << "]";
 
-
       if (this->configuration().complete_at_position1)
       {
         NQLog("AlignmentCheck", NQLog::Message) << "Angle measurment completed, moving back to position 1";
@@ -466,7 +464,6 @@ void AlignmentCheck::run_alignment(const double patrec_dX, const double patrec_d
 
         this->move_relative(-dX, 0.0, -dZ, 0.0);
       }
-
       this->reset();
 
       emit execution_completed();

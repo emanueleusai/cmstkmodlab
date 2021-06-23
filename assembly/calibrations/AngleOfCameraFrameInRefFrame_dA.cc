@@ -27,25 +27,24 @@
 // const double ANGDEG_REFERC = 0.00; // PS-s
 // //const double ANGDEG_REFERC = 0.00; // PS-p
 //// ------------------------------------------///
-const double ANGDEG_PATREC = -0.14; // avg b/w PR1 -0.12 and PR2 -0.16
+const double ANGDEG_PATREC = 0.7; // avg b/w PR1 0.7 and PR2 0.7
 
-const int PR1_PIXEL_X = 1313;
-const int PR1_PIXEL_Y =  750;
+const int PR1_PIXEL_X = 817;
+const int PR1_PIXEL_Y =  706;
 
-const double PR1_MOTION_STAGE_POS_X = 16.175;
-const double PR1_MOTION_STAGE_POS_Y = -108.500;
+const double PR1_MOTION_STAGE_POS_X = 11.3;
+const double PR1_MOTION_STAGE_POS_Y = -115.7;
 
-const int PR2_PIXEL_X = 1448;   
-const int PR2_PIXEL_Y =  827; 
+const int PR2_PIXEL_X = 977;   
+const int PR2_PIXEL_Y =  789; 
 
-const double PR2_MOTION_STAGE_POS_X = 111.175; 
-const double PR2_MOTION_STAGE_POS_Y = -108.5;
+const double PR2_MOTION_STAGE_POS_X = 106.300; 
+const double PR2_MOTION_STAGE_POS_Y = -115.7;
 
 // SENSOR, IMAGE SPECIFICATIONS
 const double ANGDEG_REFERC = 0.000; // two fiducials used aligned
 //const double ANGDEG_REFERC = -27.313500; // PS-s
 //const double ANGDEG_REFERC = -26.706931; // PS-p
->>>>>>> alignment
 
 const double MM_PER_PIXEL = 0.0012;
 

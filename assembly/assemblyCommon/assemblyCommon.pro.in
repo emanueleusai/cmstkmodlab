@@ -76,9 +76,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 }
 
 # Input
-HEADERS += AlignmentCheck.h \
-           AlignmentCheckView.h \
-           AssemblyVUEyeCamera.h \
+HEADERS += AssemblyVUEyeCamera.h \
            AssemblyVUEyeModel.h \
            AssemblyUEyeWidget.h \
            AssemblyUEyeCameraWidget.h \
@@ -149,9 +147,7 @@ HEADERS += AssemblyUEyeFakeCamera.h \
            AssemblyUEyeFakeModel.h
 }
 
-SOURCES += AlignmentCheck.cc \
-           AlignmentCheckView.cc \
-           AssemblyVUEyeCamera.cc \
+SOURCES += AssemblyVUEyeCamera.cc \
            AssemblyVUEyeModel.cc \
            AssemblyUEyeWidget.cc \
            AssemblyUEyeCameraWidget.cc \

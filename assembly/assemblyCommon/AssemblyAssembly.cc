@@ -104,7 +104,6 @@ const RelayCardManager* AssemblyAssembly::vacuum() const
 
   return vacuum_;
 }
-*/
 
 AssemblyParameters* AssemblyAssembly::parameters() const
 {
